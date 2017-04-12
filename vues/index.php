@@ -7,7 +7,7 @@
 		<p class="">New World</p>
 	</section>
 	<section class="col-md-4">
-		<img  class="image_accueil" src="images/jardinier-a-larrosoir.jpg">
-		<img  class="image_accueil" src="images/boucher.jpg">
+		<img  class="img-responsive image_accueil" src="images/jardinier-a-larrosoir.jpg">
+		<img  class="img-responsive image_accueil" src="images/boucher.jpg">
 	</section>
 </div>

@@ -128,7 +128,8 @@ a{
 }
 
 .image_accueil{
-	max-width: 100%;
+	max-width: 414px;
+	max-height: 610px;
 	display: block;
 	padding-top: 8px;
 }
