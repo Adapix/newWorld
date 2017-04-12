@@ -35,6 +35,10 @@ body {
 	text-decoration: underline;
 }
 
+.menu-onglet{
+	padding-right: 50px;
+}
+
 .header{
 	background-color: #1A1F20;
 	margin-right: 0;
@@ -45,10 +49,9 @@ body {
 .navigation{
 	font-family: "Arial",sans-serif;
 	font-size: 20px;
-	background-color: red;
 	background-image:linear-gradient(#4F5158, #161618);
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin-bottom: 0;
 	border: 0;
 	border-radius: 0;
@@ -78,12 +81,7 @@ a{
 }
 
 .search_contnair{
-	padding-right: 15px;
-	padding-left: 15px;
-	display: inline-block;
-	width: 25%;
-	min-width: 186px;
-	margin: 0 auto;
+	min-width: 25%;
 }
 
 .search_button{
@@ -94,13 +92,12 @@ a{
 	width: 100%;
 	height: 45px;
 	padding: 0 20px;
-	font-size: 1rem;
+	font-size: 20px;
 	outline: none;
 	margin: 0 auto;
-	background-repeat: no-repeat;
-	background-size: 30px,30px;
-	background-position: 96%;
-	background-image: url("../images/search.png");
+	background-image:linear-gradient(#43474D, #090D10);
+	font-style: white;
+	color: white;
 }
 
 .overflow{
