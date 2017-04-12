@@ -1,5 +1,5 @@
 <div class="content" >
-	<section class="text_accueil col-md-8">
+	<section id="description" class="text_accueil col-md-8">
 		<p class="">Les meilleurs produits de saison.</p>
 		<p class="">Du producteur à l'artisanat et au consommateur.</p>
 		<p class="">Ni usine, ni camion, ni grande surface.</p>

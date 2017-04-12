@@ -119,7 +119,7 @@ a{
 	text-align: center;
 }
 
-p::first-letter{
+#description::first-letter{
 	font-family: Arial;
 	max-width: 100%;
 	font-size:120%;
