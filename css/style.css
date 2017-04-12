@@ -98,7 +98,6 @@ a{
 	overflow: hidden;
 }
 
-
 .content{
 	position: relative;
 	width: 100%;
@@ -110,13 +109,15 @@ a{
 	overflow: hidden;
 }
 
-
 .text_accueil{
 	max-width: 100%;
-	font-size:100%;
+	font-size:20px;
 	font-weight: bold; 
 	color: #73A0D6;
-	text-align: center;
+}
+
+#description{
+padding-top: 7%;
 }
 
 #description::first-letter{
