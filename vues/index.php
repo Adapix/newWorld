@@ -3,7 +3,7 @@
 		<div id="description" class="text_accueil col-md-8 text-center">
 			<p class="">Les meilleurs produits de saison.</p>
 			<p class="">Du producteur à l'artisanat et au consommateur.</p>
-			<p class="">Ni usine, ni camion, ni grande surface.</p>
+			<p class="">Ni test usine, ni camion, ni grande surface.</p>
 			<br><p class="">La terre et l'homme à nouveau respectés.</p><br>
 			<p class="">New World</p>
 		</div>
