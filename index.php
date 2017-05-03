@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$bdd = new mysqli("localhost","root","","newWorld");
+$bdd = new mysqli("localhost","root","ini01","newWorld");
 
 if (!empty($_GET['page']) AND is_file('controleurs/'.$_GET['page'].'.php'))
 {
