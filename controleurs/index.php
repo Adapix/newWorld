@@ -8,6 +8,7 @@ $nomPage = "Accueil";
 include(dirname(__FILE__).'/../modeles/function.php');
 
 // Chargement des fonctions spécifiques
+
 include(dirname(__FILE__).'/../modeles/index.php');
 
 // Chargement du HEAD
@@ -15,7 +16,7 @@ include(dirname(__FILE__).'/../modeles/index.php');
 include(dirname(__FILE__).'/../vues/static/head.php');
 
 // Chargement du HEADER
-echo "<body>";
+
 include(dirname(__FILE__).'/../vues/static/header.php');
 
 // Chargement du MENU DE NAVIGATION
