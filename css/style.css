@@ -170,3 +170,7 @@ li{
 #footer{
 	background-image:linear-gradient(#43474D, #090D10);
 }
+
+.no-maring-bottom{
+	margin-bottom: 0;
+}

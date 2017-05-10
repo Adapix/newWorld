@@ -3,10 +3,6 @@
 
 $nomPage = "Accueil";
 
-// Les fonctions globales : 
-
-include(dirname(__FILE__).'/../modeles/function.php');
-
 // Chargement des fonctions spécifiques
 
 include(dirname(__FILE__).'/../modeles/index.php');
