@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mer 10 Mai 2017 à 17:30
+-- Généré le :  Mer 26 Avril 2017 à 16:00
 -- Version du serveur :  5.5.52-0+deb8u1
 -- Version de PHP :  5.6.29-0+deb8u1
 
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS `lot` (
   `idRetrait` int(11) DEFAULT NULL,
   `idProducteur` int(11) DEFAULT NULL,
   `nomArticle` varchar(80) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
 -- Contenu de la table `lot`
@@ -61,8 +61,7 @@ CREATE TABLE IF NOT EXISTS `lot` (
 INSERT INTO `lot` (`idLot`, `poids`, `aliment`, `modeDeProduction`, `idLieuDeProduction`, `dateRecolte`, `dlc`, `qte`, `prixAuKg`, `qteMinParVente`, `idRetrait`, `idProducteur`, `nomArticle`) VALUES
 (1, NULL, 'abricots', 'biologique', NULL, '03/02/17', '05/03/17', 125, 1.85, 2, NULL, NULL, 'Les pommes rambo'),
 (2, NULL, 'laitues', 'biologique', NULL, '15/03//17', '20/03/17', 20, 8, 2, NULL, NULL, 'Iceberg'),
-(3, NULL, 'fraises', 'biologique', NULL, '05/04/17', '20/04/17', 20, 3, 1, NULL, NULL, 'Guariguettes'),
-(4, NULL, 'abricots', 'conventionnel', NULL, '45', '4', 44, 4, 0.5, NULL, NULL, 'Les');
+(3, NULL, 'fraises', 'biologique', NULL, '05/04/17', '20/04/17', 20, 3, 1, NULL, NULL, 'Guariguettes');
 
 -- --------------------------------------------------------
 
@@ -118,17 +117,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(255) NOT NULL,
   `admin` tinyint(1) NOT NULL DEFAULT '0',
   `signup_date` int(10) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 
 --
 -- Contenu de la table `users`
 --
 
 INSERT INTO `users` (`idUser`, `nomUser`, `password`, `email`, `admin`, `signup_date`) VALUES
-(1, 'Nicolas', 'lecode01', 'lemail@mail.fr', 1, 7032017),
-(20, 'kevin', 'blbl', 'kevin@gmail.com', 0, 26042017),
-(21, 'Joe', 'lol', 'joe@lui.fr', 0, 27042017),
-(22, 'Maxime', 'test', 'maxime.iori@gmail.com', 0, 3052017);
+(1, 'Nicolas', 'lecode01', 'lemail@mail.fr', 1, 7032017);
 
 --
 -- Index pour les tables exportées
@@ -183,7 +179,7 @@ MODIFY `idLieuDeProduction` int(11) NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT pour la table `lot`
 --
 ALTER TABLE `lot`
-MODIFY `idLot` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
+MODIFY `idLot` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT pour la table `pointDeRetrait`
 --
@@ -198,7 +194,7 @@ MODIFY `idProducteur` int(11) NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-MODIFY `idUser` bigint(20) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=23;
+MODIFY `idUser` bigint(20) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=17;
 --
 -- Contraintes pour les tables exportées
 --

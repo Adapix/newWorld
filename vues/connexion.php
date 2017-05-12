@@ -13,15 +13,15 @@
 	?>
 	<div class="no-maring-bottom container-fluid well">
 		<?php if(is_connected()){ ?>
-			<h1 class="alert alert-danger">Vous êtes déjà connecté/h1>
+			<h1 class="alert alert-danger">Vous êtes déjà connecté</h1>
 			<a class="btn btn-default" href="index.php?page=index">Retourner à l'accueil</a>
 			<?php }else{ ?>
 
 		<?php
-		if(!empty($_SESSION)){			
+		if(!empty($_SESSION['msg']) and isset($_SESSION['msg'])){			
 		?>
 
-		<h2 class="alert alert-danger alert-dimissable close"><?php echo $_SESSION['msg'] ?></h2>
+		<h2 class="alert alert-danger alert-dimissable close"><?php echo $_SESSION['msg']; $_SESSION['msg'] = ""; ?></h2>
 
 		<?php }  ?>
 

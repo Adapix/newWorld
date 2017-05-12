@@ -2,10 +2,8 @@
 
 function is_connected()
 {
-	if (isset($_SESSION['idUser']) AND $_SESSION['idUser']) {
+	if (isset($_SESSION['connected']) AND $_SESSION['connected'])
 		return true;
-		exit();
-	}
 	return false;
 }
 

@@ -1,8 +1,7 @@
 <?php
-session_start();
 
 function deconnexion(){
-	$_SESSION['idUser'] = false;
+	$_SESSION['connected'] = false;
 }
 
 function req($request)
@@ -37,7 +36,7 @@ function connexion()
 
 		if ($userDb == $_GET['nomUser'])
 		{
-			$_SESSION['idUser'] = true;
+			$_SESSION['connected'] = true;
 			$_SESSION['nomUser'] = $userDb;
 			// $req = listeByReq("SELECT admin FROM users WHERE nomUser = \"".$_GET['nomUser']."\" ");
 			
