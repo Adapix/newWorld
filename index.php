@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$bdd = new mysqli("localhost","root","","newWorld");
+$bdd = new mysqli("localhost","root","ini01","newWorld");
 
 include('modeles/function.php');
 include('modeles/class.php');
